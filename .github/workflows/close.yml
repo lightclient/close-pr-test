@@ -12,7 +12,3 @@ jobs:
       pull-requests: write
     steps:
     - uses: actions/checkout@v4
-    - uses: lightclient/close-pull-request@allowlist
-      with:
-        allowlist: COLLABORATORS
-        comment: "We do not accept PRs. If you have any questions, please feel free to contact us."
