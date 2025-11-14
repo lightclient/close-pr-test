@@ -20,4 +20,4 @@ jobs:
     - uses: lightclient/close-pull-request@allowlist
       with:
         allowlist: collab-list-test/COLLABORATORS
-          comment: "We do not accept PRs. If you have any questions, please feel free to [contact us](http://github.com/lightclient)."
+        comment: "We do not accept PRs. If you have any questions, please feel free to [contact us](http://github.com/lightclient)."
